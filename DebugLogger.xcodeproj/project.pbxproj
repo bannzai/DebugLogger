@@ -14,6 +14,7 @@
 		0519EF801B5F335500320DD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0519EF7F1B5F335500320DD7 /* Images.xcassets */; };
 		0519EF831B5F335500320DD7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0519EF811B5F335500320DD7 /* LaunchScreen.xib */; };
 		0519EF8F1B5F335500320DD7 /* DebugLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0519EF8E1B5F335500320DD7 /* DebugLoggerTests.m */; };
+		0519EF9A1B5F336300320DD7 /* DebugLoger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0519EF991B5F336300320DD7 /* DebugLoger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		0519EF881B5F335500320DD7 /* DebugLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DebugLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0519EF8D1B5F335500320DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0519EF8E1B5F335500320DD7 /* DebugLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebugLoggerTests.m; sourceTree = "<group>"; };
+		0519EF981B5F336300320DD7 /* DebugLoger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLoger.h; sourceTree = "<group>"; };
+		0519EF991B5F336300320DD7 /* DebugLoger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLoger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				0519EF7F1B5F335500320DD7 /* Images.xcassets */,
 				0519EF811B5F335500320DD7 /* LaunchScreen.xib */,
 				0519EF721B5F335500320DD7 /* Supporting Files */,
+				0519EF981B5F336300320DD7 /* DebugLoger.h */,
+				0519EF991B5F336300320DD7 /* DebugLoger.m */,
 			);
 			path = DebugLogger;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				0519EF7B1B5F335500320DD7 /* ViewController.m in Sources */,
 				0519EF781B5F335500320DD7 /* AppDelegate.m in Sources */,
 				0519EF751B5F335500320DD7 /* main.m in Sources */,
+				0519EF9A1B5F336300320DD7 /* DebugLoger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
